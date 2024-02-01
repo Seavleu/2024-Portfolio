@@ -1,17 +1,17 @@
 export const projectData = [
 	{
 		id: 1,
-		title: 'Todo List App',
+		title: 'Journalism Club Blog Website',
 		description:
-			'A simple Todo List App built with JavaScript. All datas are stored in localstorage. It helps users check list out their plans and tick as they do them.',
-		gitHubLink: 'https://github.com/olawanlejoel/Todo-List-App',
+			'A simple blog website that post articles related to various events and activities within Woosong University.',
+		gitHubLink: 'https://github.com/Seavleu/blog_website_journalism_club',
 	},
 	{
 		id: 2,
-		title: 'Books Library App',
+		title: 'Car Hub Web Page',
 		description:
-			'A simple Book Library App built with JavaScript. It helps readers have a good list of books they are eiter currently reading or have finished reading.',
-		gitHubLink: 'https://github.com/olawanlejoel/Book-Library',
+			'A simple Car Finder App built with Next.js on RapidAPI. It helps users find the and rent the right car.',
+		gitHubLink: 'https://github.com/Seavleu/CarHub-Website',
 	},
 	{
 		id: 3,
