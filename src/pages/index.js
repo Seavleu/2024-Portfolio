@@ -11,7 +11,7 @@ const Home = () => {
 	return (
 		<>
 			<Head>
-				<title>Jenny's Portfolio</title>
+				<title>Jenny&apos;s Portfolio</title>
 				<meta name="description" content="Joel's Portfolio" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.jpeg" />
