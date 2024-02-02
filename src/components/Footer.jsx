@@ -4,7 +4,7 @@ const Footer = () => {
             <hr />
             <div className="footer-container">
                 <p>
-                    &copy; {new Date().getFullYear()} Jenny's Portfolio
+                    &copy; {new Date().getFullYear()} Jenny&apos;s Portfolio
                 </p>
                 <div className="social_icons">
                     {/* <a
