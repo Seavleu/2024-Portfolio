@@ -72,7 +72,7 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  background-color: #1D1E20;
+  background-color: #1d201d;
 }
 
 .nav-container .logo {
@@ -90,6 +90,7 @@ li {
   transition: all 0.5s ease-in-out;
   cursor: pointer;
   display: inline-block;
+  margin-top: 5%;
 }
 
 .cta-btn:hover {
@@ -116,7 +117,7 @@ hr {
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
-  background-color: #1D1E20;
+  background-color: #1d201d;
 }
 
 .footer-container p {
@@ -150,6 +151,10 @@ hr {
   align-items: center;
   flex-direction: column;
   padding: 2rem 0;
+}
+.hero-container a{
+  color:#cfcec9;
+  text-decoration: underline;
 }
 
 .hero-container .profile-img {
@@ -339,6 +344,12 @@ hr {
   font-weight: 600;
   margin-bottom: 1rem;
 }
+.titleProps{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #f9d484;
+}
 
 .projects-grid {
   display: grid;
@@ -404,7 +415,7 @@ hr {
   align-items: center;
   flex-direction: column;
   width: 80%;
-  margin: 0 auto;
+  margin: 2% auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -424,4 +435,51 @@ hr {
   font-weight: 400;
   margin-bottom: 1rem;
   text-align: center;
+}
+
+/* Chatbot */
+.chatbot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b3b3b3;
+}
+
+
+.chatbot-container .flex-bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 2rem;
+}
+
+/* .chatbot-container .flex-about .about-text {
+  width: 50%;
+} */
+
+.chatbot-container .flex-bot {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.chatbot-container .flex-bot .bot-img {
+  width: 50%;
+}
+
+.chatbot-container .flex-bot .bot-img .pf-img {
+  overflow: hidden;
+  width: 80%;
+  height: 50px;
+  object-fit: cover;
+  border:  #DADADB;
+  border-radius: 15px 15px;
+  filter: grayscale(100%);
+  transition: all 0.5s ease-in-out;
+  cursor:pointer;
+}
+
+.chatbot-container .flex-bot .bot-img .pf-img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.02);
 }

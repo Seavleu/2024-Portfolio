@@ -3,6 +3,7 @@ import About from '@/src/components/About';
 import Skills from '@/src/components/Skills';
 import Projects from '@/src/components/Projects';
 import Contact from '@/src/components/Contact';
+import Chatbot from '../components/Chatbot';
 
 import Head from 'next/head';
 
@@ -21,6 +22,7 @@ const Home = () => {
 				<Skills />
 				<Projects />
 				<Contact />
+				<Chatbot/>
 			</div>
 		</>
 	);

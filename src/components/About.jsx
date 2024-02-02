@@ -13,7 +13,7 @@ const About = () => {
                     <p>I also explore ML projects, including supervised learning (Binary Classification, K-NN, Logistic Regression) and unsupervised learning (Clustering, PCA). Currently, I'm researching Construction Site PPE detection as a side project.</p>
                 </div>
                 <div className="about-img">
-                    <Image src='/h3.jpg' className="profile-img" width={300} height={500} alt="Jenny Explaining her Game Product" />
+                    <Image src='/h3.jpg' className="profile-img" width={600} height={600} alt="Jenny Explaining her Game Product" />
                 </div>
             </div>
         </div>

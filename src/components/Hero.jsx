@@ -8,8 +8,8 @@ const Hero = () => {
                 <h1>Hey, I'm Jenny 👋</h1>
                 <p>
                     I'm a software developer based in Daejoen, South Korea. I specialize in building websites, applications, and everything in between. 
-                    <a href="https://vast-part-d09.notion.site/65a8291e981042e9b94ec04aa8ffc45d?v=4a8a68b6e7084995af8e39cf7c2b98ad&pvs=4"> <br />Manage Me</a>
                 </p>
+                <a href="https://vast-part-d09.notion.site/65a8291e981042e9b94ec04aa8ffc45d?v=4a8a68b6e7084995af8e39cf7c2b98ad&pvs=4"> <br />How I Work</a>
                 <div className="social-icons">
                     {/* <a
                         href="https://twitter.com/"

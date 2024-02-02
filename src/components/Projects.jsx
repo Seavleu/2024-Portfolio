@@ -14,7 +14,7 @@ const Projects = () => {
                                 <a href={project.demoLink}><i> </i>Demo</a>
                             </div>
                         </div>
-                        <h3>{project.title}</h3>
+                        <h3 className='titleProps'>{project.title}</h3>
                         <p>{project.description}</p>
                     </div>
                 ))
